@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import "./Projects.scss";
 // import "~slick-carousel/slick/slick.css"; 
 // import "~slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -24,6 +24,7 @@ export default function Projects(props) {
         <img src={props.preview.img1} alt="" />
         <img src={props.preview.img2} alt="" />
         <img src={props.preview.img3} alt="" />
+        <img src={props.preview.img4} alt="" />
       </Slider>
       </div>
       <div className="pro-info">

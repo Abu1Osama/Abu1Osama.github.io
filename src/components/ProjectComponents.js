@@ -2,6 +2,9 @@ import React from "react";
 import Projects from "./Projects.js";
 import "./ProjectComponents.css";
 import Trip from "./Projects-pic/Trip.png";
+import Trip2 from "./Projects-pic/Trip2.png";
+import Trip3 from "./Projects-pic/Trip3.png";
+import Trip4 from "./Projects-pic/Trip4.png";
 import ZaRa from "./Projects-pic/ZaRa.png";
 import Shop from "./Projects-pic/Shop.png";
 
@@ -26,8 +29,9 @@ export default function ProjectComponents() {
       website: "https://abu1osama.github.io/august-wool-9387/",
       object_img: {
         img1: Trip,
-        img2: ZaRa,
-        img3: Shop,
+        img2: Trip2,
+        img3: Trip3,
+        img4: Trip4,
       }
     },
     {
@@ -41,6 +45,7 @@ export default function ProjectComponents() {
         img1: Trip,
         img2: ZaRa,
         img3: Shop,
+        img4: Trip4,
       },
     },
     {
@@ -53,6 +58,7 @@ export default function ProjectComponents() {
         img1: Trip,
         img2: ZaRa,
         img3: Shop,
+        img4: Trip4,
       },
     }
   ];

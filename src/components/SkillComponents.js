@@ -1,5 +1,5 @@
 import React from 'react'
-import"./SkillComponents.css"
+import"./SkillComponents.scss"
 
 export default function SkillComponents(props) {
     return (

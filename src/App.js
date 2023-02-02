@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar.js";
-import "./App.css";
+import "./App.scss";
 import AboutMe from "./components/AboutMe.js";
 import MyDetails from "./components/MyDetails.js";
 import Skills from "./components/Skills.js";
