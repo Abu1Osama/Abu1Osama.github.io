@@ -1,0 +1,141 @@
+.about {
+  /* background-color: white; */
+
+  width: 100%;
+  margin-bottom: 20px;
+  /* border-radius: 10px; */
+  padding: 4% 8%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 95vh;
+  box-sizing: border-box;
+
+}
+.fog{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  /* background-color: tomato; */
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.fog img{
+  height: 100%;
+  width: 100%;
+}
+.image {
+  /* height: max-content; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+
+  padding: 10px;
+  /* border-radius: 50%; */
+  /* background: linear-gradient(-45deg,  #ee7752,rgb(255, 255, 200), #23a6d5, #23d5ab); */
+  /* background: linear-gradient(-45deg, #f7f4f3, #aeaeae, #4f4f4f, #2f2f2f); */
+  box-sizing: border-box;
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  /* filter: grayscale(); */
+  object-fit: cover;
+}
+.white {
+  height: 400px;
+  width: 320px;
+  border-radius: 50%;
+  /* background-color: white; */
+  /* border: 3px solid white ; */
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.info {
+  width: 50%;
+  /* border: 2px solid red; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.info button{
+  padding: 15px;
+    width: 250px;
+    font-size: 20px;
+    background-image: linear-gradient(-45deg,blue, skyblue);
+    background-size: 200%;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0,0.3);
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+}
+.info button a{
+ 
+    color: white;
+}
+
+.about p {
+  margin: 20px 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+.about h1 {
+  color: rgb(56, 56, 56);
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    padding: 20px;
+    flex-direction: column-reverse;
+  }
+  .image{
+    width: 100%;
+  }
+  .white {
+    height: 400px;
+    width: 280px;
+    /* background-color: white; */
+    /* border: 3px solid white ; */
+  }
+  .info p{
+    font-size: 30px;
+  }
+ 
+  .info {
+    width: 100%;
+  }
+ 
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    padding:0;
+    
+  }
+}
