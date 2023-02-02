@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-Preview https://moneer-portfolio.netlify.app/
+
 
 This project was created using react.
 
