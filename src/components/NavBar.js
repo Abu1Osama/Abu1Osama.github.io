@@ -3,8 +3,11 @@ import "./NavBar.scss";
 
 export default function NavBar() {
   const uncheck = () => {
-    document.getElementById("checker").checked = false;
+      setTimeout(() => {
+          document.getElementById("checker").checked = false;
+    }, 1000);
   };
+
   return (
     <nav className="container">
       <div className="logo">Osama</div>
