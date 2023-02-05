@@ -7,7 +7,7 @@ import Slider from "react-slick";
 export default function Projects(props) {
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -15,8 +15,12 @@ export default function Projects(props) {
     speed: 3000,
     autoplaySpeed: 2000,
     cssEase: "linear",
-    arrows:false
+    arrows:false,
+    // fade:true,
+    adaptiveHeight:false,
+    className:"sliderabc"
   };
+  
   return (
     <div className="projects">
       <div className="pro-img">

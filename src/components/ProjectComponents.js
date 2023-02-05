@@ -1,12 +1,18 @@
 import React from "react";
 import Projects from "./Projects.js";
 import "./ProjectComponents.css";
-import Trip from "./Projects-pic/Trip.png";
-import Trip2 from "./Projects-pic/Trip2.png";
-import Trip3 from "./Projects-pic/Trip3.png";
-import Trip4 from "./Projects-pic/Trip4.png";
-import ZaRa from "./Projects-pic/ZaRa.png";
-import Shop from "./Projects-pic/Shop.png";
+import Trip7 from "./Projects-pic/Trip7.png";
+import Trip12 from "./Projects-pic/Trip12.jpeg";
+import Trip9 from "./Projects-pic/Trip9.png";
+import Trip10 from "./Projects-pic/trip10.jpeg";
+import zara11 from "./Projects-pic/zara11.jpeg";
+import zara12 from "./Projects-pic/zara12.jpeg";
+import zara13 from "./Projects-pic/zara13.jpeg";
+import zara19 from "./Projects-pic/zara19r.jpeg";
+import shop12 from "./Projects-pic/shop12.jpeg";
+import shop14 from "./Projects-pic/shop14.jpeg";
+import shop15 from "./Projects-pic/shop15.jpeg";
+import shop17 from "./Projects-pic/shop17.jpeg";
 
 export default function ProjectComponents() {
   const project1 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js"];
@@ -28,10 +34,10 @@ export default function ProjectComponents() {
       github: "https://github.com/Abu1Osama/august-wool-9387",
       website: "https://abu1osama.github.io/august-wool-9387/",
       object_img: {
-        img1: Trip,
-        img2: Trip2,
-        img3: Trip3,
-        img4: Trip4,
+        img1: Trip7,
+        img2: Trip12,
+        img3: Trip9,
+        img4: Trip10,
       }
     },
     {
@@ -42,10 +48,10 @@ export default function ProjectComponents() {
       github: "https://github.com/i-m-prince/beneficial-jelly-4258",
       website: "https://tubular-concha-7a9bfb.netlify.app/",
       object_img: {
-        img1: Trip,
-        img2: ZaRa,
-        img3: Shop,
-        img4: Trip4,
+        img1: zara11,
+        img2: zara12,
+        img3: zara13,
+        img4: zara19,
       },
     },
     {
@@ -55,10 +61,10 @@ export default function ProjectComponents() {
       github:"https://github.com/Abu1Osama/close-hand-543",
       website:"https://yousamuniverse-abu1osama.vercel.app/",
       object_img: {
-        img1: Trip,
-        img2: ZaRa,
-        img3: Shop,
-        img4: Trip4,
+        img1: shop12,
+        img2: shop14,
+        img3: shop15,
+        img4: shop17,
       },
     }
   ];

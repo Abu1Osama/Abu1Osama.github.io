@@ -10,9 +10,64 @@
   position: relative;
   height: 95vh;
   box-sizing: border-box;
-
+  flex-direction: row-reverse;
 }
-.fog{
+
+.content {
+  position: relative;
+  width: 100%;
+    height: 50px;
+}
+
+.content p {
+  color: #fff;
+  font-size: 8em;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+}
+
+.content p:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 4px #2e2e2e;
+}
+
+.content p:nth-child(2) {
+  color: #ffffff;
+  animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+.fog {
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -21,7 +76,7 @@
   top: 0;
   z-index: -1;
 }
-.fog img{
+.fog img {
   height: 100%;
   width: 100%;
 }
@@ -55,6 +110,8 @@
   border-radius: 50%;
   /* background-color: white; */
   /* border: 3px solid white ; */
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }
 
 @keyframes change {
@@ -81,22 +138,21 @@
   box-sizing: border-box;
 }
 
-.info button{
+.info button {
   padding: 15px;
-    width: 250px;
-    font-size: 20px;
-    background-image: linear-gradient(-45deg,blue, skyblue);
-    background-size: 200%;
-    font-weight: bold;
-    border: none;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0,0.3);
-    margin: 20px;
-    color: white;
-    cursor: pointer;
+  width: 250px;
+  font-size: 20px;
+  background-image: linear-gradient(-45deg, blue, skyblue);
+  background-size: 200%;
+  font-weight: bold;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  color: white;
+  cursor: pointer;
 }
-.info button a{
- 
-    color: white;
+.info button a {
+  color: white;
 }
 
 .about p {
@@ -113,8 +169,9 @@
   .about {
     padding: 20px;
     flex-direction: column-reverse;
+    justify-content: center;
   }
-  .image{
+  .image {
     width: 100%;
   }
   .white {
@@ -123,19 +180,27 @@
     /* background-color: white; */
     /* border: 3px solid white ; */
   }
-  .info p{
-    font-size: 30px;
+  .info p {
+    font-size: 25px;
   }
- 
+
   .info {
     width: 100%;
   }
- 
+  .fog{
+    display: none;
+  }
+  .content p{
+    font-size: 24px !important;
+  }
 }
 
 @media only screen and (max-width: 900px) {
   .about {
-    padding:0;
-    
+    padding: 0;
+    justify-content: center;
+  }
+  .content p{
+    font-size: 25px;
   }
 }

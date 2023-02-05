@@ -2,46 +2,71 @@
 .projects {
   /* height: 400px; */
 
-  /* padding: 50px; */
+  padding: 40px 50px ; 
   box-sizing: border-box;
   // display: flex;
   margin: 20px auto;
   width: 90%;
-  gap: 10px;
-  @include flex-box(
-   
-  );
-
-
+  background-image: linear-gradient(-45deg, blue, skyblue);
+  background-image: linear-gradient(to right, rgba(26, 114, 247, 0.8) 0%, rgba(26, 114, 247, 0.9) 51%, rgba(26, 114, 247, 0.6) 100%);
+ display: grid;
+ grid-template-columns: 64% 34%;
+ justify-content: space-between;
+ animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  @keyframes example {
+    0%   {background-color:red;}
+    25%  {background-color:yellow; }
+    50%  {background-color:rgb(0, 255, 187);}
+    75%  {background-color:green;}
+    100% {background-color:red;}
+  }
+  .sliderabc{
+    height: 100%;
+  }
   .pro-img {
-    width: 50%;
+    width: 100%;
   }
   .pro-img img {
     width: 100%;
     height: 100%;
     border-radius: 8px;
+    padding: 0px 10px;
+    box-sizing: border-box;
   }
 
   .tech-used .fab {
     font-size: 40px;
   }
   .pro-info {
-    width: 50%;
+    width: 100%;
     padding: 30px 50px;
     box-sizing: border-box;
-    background-image: $BG1;
+    // background-image: $BG1;
     background-size: 200%;
     border-radius: 8px;
+    background: rgba(0,0,0,0.1)
+
   }
 
   .pro-info p {
     color: white;
+   
   }
   .pro-info p:nth-child(1) {
     font-size: 30px;
+    background: rgba(0,0,0, 0.1);
+    text-align: center;
+    font-weight: 600;
+    padding: 15px;
   }
   .pro-info p:nth-child(2) {
     margin: 20px 0;
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    /* color: black; */
+    border-radius: 4px;
   }
   .pro-info p:nth-child(3) {
     text-align: center;
@@ -64,43 +89,35 @@
     justify-content: center;
   }
   .pro-btn button {
-    padding: 15px;
+    padding: 10px 20px;
     font-size: 20px;
-    background-image: linear-gradient(-45deg, blue, rgb(75, 88, 221));
-    background-image: linear-gradient(to right, rgb(26, 114, 247) 0%, rgb(126, 136, 247) 51%,  rgb(75, 88, 221)  100%);
+    background-image: linear-gradient(to right, rgba(26, 114, 247, 0.8) 0%, rgba(26, 114, 247, 0.9) 51%, rgba(26, 114, 247, 0.6) 100%);
     background-size: 200%;
     font-weight: bold;
     border: none;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0,0.3);
     color: white;
     margin: 0 10px;
     transition: 0.5s;
     display: block;
-  }
-           
-  // .btn-grad {
-  //   background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
-  //   margin: 10px;
-  //   padding: 15px 45px;
-  //   text-align: center;
-  //   text-transform: uppercase;
-  //   background-size: 200% auto;
-  //   color: white;            
-  //   box-shadow: 0 0 20px #eee;
-  //   border-radius: 10px;
-  // }
+    border-radius: 4px;
 
+  }
   .pro-btn button:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     text-decoration: none;
   }
  
 }
 
+
 @media only screen and (max-width: 900px) {
   .projects {
-    flex-direction: column;
+    grid-template-columns: 100%;
+    width: 100%;
+    padding: 40px 0px;
+    padding-bottom: 0;
 
     .pro-img {
       width: 100%;
@@ -112,7 +129,11 @@
 }
 @media only screen and (max-width: 600px) {
   .projects {
-    flex-direction: column;
+    grid-template-columns: 100%;
+    width: 100%;
+    padding: 40px 0px;
+    padding-bottom: 0;
+
 
     .pro-img {
       width: 100%;
