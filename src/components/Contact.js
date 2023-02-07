@@ -22,7 +22,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="copyright">
-      No © copyright issues | Designed and developed by Abu Osama 
+      No © copyright issues | Designed and Developed by Abu Osama 
       </div>
     </div>
   );
