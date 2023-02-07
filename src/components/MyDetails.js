@@ -1,11 +1,11 @@
 import React from 'react'
 import img1 from './Coding.gif'
 
-import"./MyDetails.css"
+import"./MyDetails.scss"
 
 export default function MyDetails() {
     return (
-        <div className='details' id="ABOUT">
+        <div  className='details about section' id="about">
             <p className='me'>About Me</p>
             <img src={img1} alt="" />
             <p className='mydetails'>

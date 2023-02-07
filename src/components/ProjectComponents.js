@@ -70,7 +70,7 @@ export default function ProjectComponents() {
   ];
 
   return (
-    <div className="all-projects" id="recent-work">
+    <div id="projects" className="all-projects" >
       <p>Recent Work</p>
       {Project_data.map((item, index) => (
         <Projects

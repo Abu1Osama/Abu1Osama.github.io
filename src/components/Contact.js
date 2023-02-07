@@ -3,7 +3,7 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div className="contact" id="connect">
+    <div  id="contact" className="contact" >
       <div className="number">
         <p>Contact Me</p>
         <p id="phone-number">+91 7070835551</p>

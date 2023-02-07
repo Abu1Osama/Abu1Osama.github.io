@@ -1,0 +1,33 @@
+.details {
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: linear-gradient(-45deg, blue, skyblue);
+  background-size: 200%;
+  scroll-margin-top: 60px;
+
+  .me {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+  }
+  .details img {
+    margin: 20px auto;
+
+    width: 280px;
+    border-radius: 8px;
+  }
+  .mydetails {
+    width: 60%;
+    /* border: 2px solid; */
+    margin: auto;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mydetails {
+    width: 100%;
+    text-align: left;
+  }
+}

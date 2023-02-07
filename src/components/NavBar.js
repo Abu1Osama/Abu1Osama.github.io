@@ -9,7 +9,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="container">
+    <nav id="nav-menu" className="container">
       <div className="logo">Osama</div>
       <input type="checkbox" name="" id="checker" />
       <label htmlFor="checker">

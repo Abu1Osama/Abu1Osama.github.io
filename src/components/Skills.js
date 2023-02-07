@@ -5,7 +5,7 @@ import SkillComponents from './SkillComponents'
 
 export default function Skills() {
     return (
-        <div className='skills' id='SKILLS'>
+        <div  id="skills"  className='skills' >
             <p>Skills and Tools</p>
             <div className="tools">
 

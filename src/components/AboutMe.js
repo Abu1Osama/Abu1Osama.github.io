@@ -5,7 +5,7 @@ import tree from "./skill-logo/fogtree.jpg";
 
 export default function AboutMe() {
   return (
-    <div className="about">
+    <div id="home" className="about">
       <div className="fog">
         <img src={tree} alt="" />
       </div>
