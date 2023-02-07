@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ad408af0.css",
+    "main.js": "/static/js/main.b170e53f.js",
+    "static/js/787.9b9c0edf.chunk.js": "/static/js/787.9b9c0edf.chunk.js",
+    "static/media/Coding.gif": "/static/media/Coding.54de1c2854e13f48aaaa.gif",
+    "static/media/Trip9.png": "/static/media/Trip9.764997cfa135663af471.png",
+    "static/media/Trip7.png": "/static/media/Trip7.c9981105675418de7842.png",
+    "static/media/Trip12.jpeg": "/static/media/Trip12.25f5d27984b87c5236b7.jpeg",
+    "static/media/shop12.jpeg": "/static/media/shop12.3b39fbf471c824817b00.jpeg",
+    "static/media/shop15.jpeg": "/static/media/shop15.62315997e10c65a1b2be.jpeg",
+    "static/media/fogtree.jpg": "/static/media/fogtree.950d4c4e05476e6c70bb.jpg",
+    "static/media/trip10.jpeg": "/static/media/trip10.925e2e34401eadb4698c.jpeg",
+    "static/media/shop14.jpeg": "/static/media/shop14.c8a1d715b576437a7d6e.jpeg",
+    "static/media/zara11.jpeg": "/static/media/zara11.2b8926c100fd2461875c.jpeg",
+    "static/media/pic2.png": "/static/media/pic2.2913e9935322cf04deba.png",
+    "static/media/zara13.jpeg": "/static/media/zara13.76cbdfd75200f7b3e32c.jpeg",
+    "static/media/shop17.jpeg": "/static/media/shop17.7d6aa81d4e621e35225e.jpeg",
+    "static/media/zara12.jpeg": "/static/media/zara12.08b96a7c83c1803988c2.jpeg",
+    "static/media/zara19r.jpeg": "/static/media/zara19r.e1c3a6bc97d5b0313c99.jpeg",
+    "index.html": "/index.html",
+    "main.ad408af0.css.map": "/static/css/main.ad408af0.css.map",
+    "main.b170e53f.js.map": "/static/js/main.b170e53f.js.map",
+    "787.9b9c0edf.chunk.js.map": "/static/js/787.9b9c0edf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad408af0.css",
+    "static/js/main.b170e53f.js"
+  ]
+}
