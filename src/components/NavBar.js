@@ -18,29 +18,37 @@ export default function Navbar() {
       <ul>
         <li onClick={uncheck}>
           {" "}
-          <i className="far fa-address-card"></i> <a href="#HOME"> Home </a>{" "}
+          <i className="far fa-address-card"></i> <a className="nav-link home" href="#home"> Home </a>{" "}
           <div></div>
         </li>
         <li onClick={uncheck}>
           {" "}
-          <i className="far fa-address-card"></i> <a href="#ABOUT"> About </a>
+          <i className="far fa-address-card"></i> <a className="nav-link about" href="#about"> About </a>
           <div></div>
         </li>
         <li onClick={uncheck}>
           {" "}
-          <i className="fas fa-sitemap"></i> <a href="#SKILLS"> Skills </a>
+          <i className="fas fa-sitemap"></i> <a className="nav-link skills" href="#skills"> Skills </a>
           <div></div>
         </li>
         <li onClick={uncheck}>
           {" "}
           <i className="fas fa-laptop"></i>{" "}
-          <a href="#recent-work"> Projects </a>
+          <a className="nav-link projects" href="#projects"> Projects </a>
           <div></div>
         </li>
         <li onClick={uncheck}>
           {" "}
+          <i className="fas fa-laptop"></i>{" "}
+          <a className="nav-link contact" href="#contact"> Contact </a>
+          <div></div>
+        </li>
+        <li id="resume-button-1" onClick={uncheck}>
+          {" "}
           <i className="far fa-file-alt"></i>
           <a
+          id="resume-link-1"
+          className="nav-link resume"
             target="_blank"
             rel="noreferrer"
             href="https://drive.google.com/file/d/1q4__WeM1faZIwzqBAoUrIhp-2akqo78X/view?usp=sharing"
