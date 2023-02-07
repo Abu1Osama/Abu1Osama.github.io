@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.scss";
 
-export default function NavBar() {
+export default function Navbar() {
   const uncheck = () => {
       setTimeout(() => {
           document.getElementById("checker").checked = false;

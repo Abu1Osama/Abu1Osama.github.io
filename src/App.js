@@ -1,4 +1,4 @@
-import NavBar from "./components/NavBar.js";
+import Navbar from "./components/Navbar.js";
 import "./App.scss";
 import AboutMe from "./components/AboutMe.js";
 import MyDetails from "./components/MyDetails.js";
@@ -11,7 +11,7 @@ function App() {
     <div id="HOME">
       <div className="empty"  ></div>
       <div>
-        <NavBar />
+        <Navbar />
         <AboutMe />
         <MyDetails />
         <Skills />
