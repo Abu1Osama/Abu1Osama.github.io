@@ -12,7 +12,7 @@ export default function AboutMe() {
       <div className="info">
         <p>Hey there!</p>
        <div className="content">
-       <p>I am Abu Osama</p>
+       <p id="user-detail-name">I am Abu Osama</p>
        <p>I am Abu Osama</p>
        </div>
          <a href="#connect"><button> Connect </button></a>
@@ -21,7 +21,7 @@ export default function AboutMe() {
 
       <div className="image">
         <div className="white">
-          <img src={img} alt="Abu Osama" />
+          <img className="home-img" src={img} alt="Abu Osama" />
         </div>
       </div>
     </div>

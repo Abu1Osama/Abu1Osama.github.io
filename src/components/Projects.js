@@ -32,20 +32,20 @@ export default function Projects(props) {
       </Slider>
       </div>
       <div className="pro-info">
-        <p>{props.title}</p>
-        <p>{props.description}</p>
+        <p className="project-title">{props.title}</p>
+        <p className="project-description">{props.description}</p>
         <p>Tech Stack</p>
-        <div className="tech-used">
+        <div className="tech-used project-tech-stack">
           {props.arr.map((e,i) => (
             <i className={e} key={i}></i>
           ))}
         </div>
         <div className="pro-btn">
-          <a target="_blank" rel='noreferrer' href={props.website}>
+          <a className="project-deployed-link" target="_blank" rel='noreferrer' href={props.website}>
             <button>Preview</button>
           </a>
 
-          <a target="_blank" rel='noreferrer' href={props.github}>
+          <a className="project-github-link" target="_blank" rel='noreferrer' href={props.github}>
             <button>Code</button>
           </a>
         </div>
