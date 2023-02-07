@@ -1,4 +1,4 @@
-.details {
+#about.details {
   padding: 40px;
   box-sizing: border-box;
   text-align: center;
@@ -11,7 +11,7 @@
     color: white;
     font-weight: bold;
   }
-  .details img {
+   img {
     margin: 20px auto;
 
     width: 280px;
@@ -26,8 +26,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .mydetails {
-    width: 100%;
-    text-align: left;
+  .details{
+
+    .mydetails {
+      width: 100%;
+      text-align: left;
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "homepage":"https://abu1osama.github.io",
+  "homepage": "https://abu1osama.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,10 +7,12 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "github-calendar": "^2.3.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
     "react-slick": "^0.29.0",
+    "react-tooltip": "^5.7.4",
     "sass": "^1.58.0",
     "slick-carousel": "^1.8.1",
     "versal-sdk": "^1.7.1",
@@ -21,8 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-"deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -1,4 +1,4 @@
-.contact {
+#contact.contact {
   background-image: linear-gradient(
     -45deg,
     rgb(255, 255, 255),
@@ -9,52 +9,50 @@
   background-size: 200%;
   margin-top: 50px;
   /* height: 300px; */
-}
 
-.contact p{
+  p {
     text-align: center;
     margin: 10px;
-  color: white;
+    color: white;
+  }
 
-}
-
-.number{
+  .number {
     padding: 30px;
     box-sizing: border-box;
-}
+  }
 
-.number  p:nth-child(1) {
-  font-size: 30px;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  margin: 20px;
+  .number p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+  }
 
-}
-
-.cont{
+  .cont {
     display: flex;
     justify-content: center;
-}
-.fab{
+  }
+  .fab {
     margin: 10px 30px;
     font-size: 30px;
     color: white;
-}
+  }
 
-.copyright{
+  .copyright {
     background-color: black;
     text-align: center;
     color: white;
     padding: 5px;
     font-size: 12px;
-}
-#contact-phone{
-  font-family: 'Font Awesome 5 Free';
+  }
+  #contact-phone {
+    font-family: "Font Awesome 5 Free";
+  }
 }
 
 @media only screen and (max-width: 600px) {
-.copyright{
+  .copyright {
     font-size: 8px;
-}
+  }
 }

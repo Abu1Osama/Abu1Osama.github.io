@@ -1,6 +1,6 @@
 import React from 'react'
 
-import"./Skills.css"
+import"./Skills.scss"
 import SkillComponents from './SkillComponents'
 
 export default function Skills() {

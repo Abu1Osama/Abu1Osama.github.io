@@ -1,6 +1,6 @@
 import React from "react";
 import Projects from "./Projects.js";
-import "./ProjectComponents.css";
+import "./ProjectComponents.scss";
 import Trip7 from "./Projects-pic/Trip7.png";
 import Trip12 from "./Projects-pic/Trip12.jpeg";
 import Trip9 from "./Projects-pic/Trip9.png";

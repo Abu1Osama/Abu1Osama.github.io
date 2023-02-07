@@ -6,7 +6,10 @@
   list-style-type: none
 }
 
-
+.gitcont{
+  width: 60%;
+  margin: auto;
+}
 
 html{
   scroll-behavior: smooth;
@@ -23,10 +26,7 @@ html{
 
 p{
   font-family: 'Raleway', sans-serif;
-  /* font-weight: 600; */
-  color: black;
-  line-height: 25px;
-  font-size: 17px;
+ 
 }
 
 button{

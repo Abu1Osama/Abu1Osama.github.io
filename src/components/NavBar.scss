@@ -1,4 +1,4 @@
-.container {
+#nav-menu.container {
   height: 60px;
   width: 100%;
   /* border: 2px solid black; */
@@ -54,94 +54,94 @@
       width: 10px;
     }
   }
-}
 
-.container ul {
-  text-decoration: none;
-  list-style-type: none;
-  display: flex;
-  font-weight: bold;
-}
-.container a {
-  color: black;
-}
-.logo {
-  font-size: 30px;
-  margin: 10px;
-  font-weight: bold;
-  width: 20%;
-  color: rgb(47, 47, 47);
-  font-family: "Pacifico", cursive;
-}
-#checker {
-  display: none;
-}
-
-.fa-bars {
-  display: none;
-  margin: 10px;
-}
-
-.container ul li {
-  padding:15px 20px;
-  position: relative;
-
-  div {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: background-image 1s;
+  ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    font-weight: bold;
   }
-}
-.container ul li:hover {
+  a {
+    color: black;
+  }
+  .logo {
+    font-size: 30px;
+    margin: 10px;
+    font-weight: bold;
+    width: 20%;
+    color: rgb(47, 47, 47);
+    font-family: "Pacifico", cursive;
+  }
+  #checker {
+    display: none;
+  }
+
+  .fa-bars {
+    display: none;
+    margin: 10px;
+  }
+
+  ul li {
+    padding: 15px 20px;
+    position: relative;
+
+    div {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: background-image 1s;
+    }
+  }
+  ul li:hover {
     color: white;
-    a{
-        color: white;
+    a {
+      color: white;
     }
-  div {
-    animation-name: pidda;
-    animation-duration: 0.7s;
-    background-image: linear-gradient(-45deg,blue, skyblue);
-    background-size: 200%;
-    border-radius: 4px;
-    // animation-iteration-count: 1;
-    @keyframes pidda {
-      from  {
-        background-image: white;
-        width: 0%;
-      }
-    //   25% {
-    //     background-color: rgb(3, 134, 131);
-    //     left: 50%;
-    //     width: 100%;
-    //   }
+    div {
+      animation-name: pidda;
+      animation-duration: 0.7s;
+      background-image: linear-gradient(-45deg, blue, skyblue);
+      background-size: 200%;
+      border-radius: 4px;
+      // animation-iteration-count: 1;
+      @keyframes pidda {
+        from {
+          background-image: white;
+          width: 0%;
+        }
+        //   25% {
+        //     background-color: rgb(3, 134, 131);
+        //     left: 50%;
+        //     width: 100%;
+        //   }
 
-    //   50% {
-    //     background-color: rgb(239, 16, 5);
-    //     left: 100%;
-    //     width: 0%;
-    //   }
-    //   75% {
-    //     background-color: rgb(228, 236, 14);
-    //     left: 50%;
-    //     width: 100%;
-    //   }
+        //   50% {
+        //     background-color: rgb(239, 16, 5);
+        //     left: 100%;
+        //     width: 0%;
+        //   }
+        //   75% {
+        //     background-color: rgb(228, 236, 14);
+        //     left: 50%;
+        //     width: 100%;
+        //   }
 
-      to {
-        background-image: linear-gradient(-45deg,blue, skyblue);
-        width: 100%;
+        to {
+          background-image: linear-gradient(-45deg, blue, skyblue);
+          width: 100%;
+        }
       }
     }
   }
-}
 
-label{
+  label {
     position: absolute;
     right: 0px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -149,7 +149,7 @@ label{
     display: block;
     font-size: 40px;
   }
-  .container {
+  #nav-menu {
     justify-content: space-between;
     box-sizing: border-box;
   }

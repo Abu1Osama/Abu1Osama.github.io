@@ -5,6 +5,7 @@ import MyDetails from "./components/MyDetails.js";
 import Skills from "./components/Skills.js";
 import ProjectComponents from "./components/ProjectComponents.js";
 import Contact from "./components/Contact.js";
+import Githubcal from "./components/Githubcal.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <MyDetails />
         <Skills />
         <ProjectComponents />
+        <Githubcal/>
         <Contact />
       </div>
     </div>

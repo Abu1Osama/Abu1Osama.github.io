@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutMe.css";
+import "./AboutMe.scss";
 import img from "./pic2.png";
 import tree from "./skill-logo/fogtree.jpg";
 

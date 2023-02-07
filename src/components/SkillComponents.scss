@@ -1,5 +1,5 @@
 @import "variable";
-.skill-comp{
+#skillcorrect.skill-comp{
     /* border: 2px solid black; */
     width: 140px;
     height: 140px;
@@ -18,7 +18,7 @@
 
 }
 
-.skill-comp p{
+#skillcorrect.skill-comp p{
     font-size: 16px;
     color: white;
 }
