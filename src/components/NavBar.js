@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavBar.scss";
+import img from "./pic2.png";
 
 export default function Navbar() {
   const uncheck = () => {
@@ -7,6 +8,12 @@ export default function Navbar() {
           document.getElementById("checker").checked = false;
     }, 1000);
   };
+  const resumedown=()=>{
+    window.open(" https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing","_blank")
+   
+
+
+  }
 
   return (
     <nav id="nav-menu" className="container">
@@ -45,17 +52,22 @@ export default function Navbar() {
         </li>
         <li id="resume-button-1" onClick={uncheck}>
           {" "}
+          <button style={{background:"none",border: "none",fontWeight: "bold",fontSize:"16px"}} onClick={resumedown}>
+
           <i className="far fa-file-alt"></i>
-          <a
+          <a 
           id="resume-link-1"
           className="nav-link resume"
-            target="_blank"
-            rel="noreferrer"
-            href="https://drive.google.com/file/d/1q4__WeM1faZIwzqBAoUrIhp-2akqo78X/view?usp=sharing"
+          rel="noreferrer"
+          // href="https://drive.google.com/file/d/1q4__WeM1faZIwzqBAoUrIhp-2akqo78X/view?usp=sharing"
+          href="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc"
+          // https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing
+          
           >
             {" "}
             Resume{" "}
           </a>{" "}
+            </button>
           <div></div>
         </li>
       </ul>
