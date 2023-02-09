@@ -7,7 +7,7 @@ export default function Githubcal() {
         Github
       </h1>
      <div>
-     {/* <Calendar /> */}
+     <Calendar />
      </div>
 
       <img id="github-top-langs"  style={{width:"100%"}} src="https://github-readme-stats.vercel.app/api/top-langs/?username=abu1osama&theme=default&layout=compact" alt="abu1Osama" />
