@@ -68,11 +68,11 @@ export default function ProjectComponents() {
       },
     },
     {
-      title:"Shopclues_Clone",
-      description:"In this project we have tried to manipulate dom elements, styling using css and tried to make website more dynamic and responsive.some of the functionality we have added are sign-in/sign-up, home page, user authentication, payment page,  developed data using local storage.",
+      title:"Movies_info",
+      description:"movies description",
       arr:project3,
-      github:"https://github.com/Abu1Osama/close-hand-543",
-      website:"https://yousamuniverse-abu1osama.vercel.app/",
+      github:"https://github.com/Abu1Osama/Movieapp_info",
+      website:"https://movieapp-info.vercel.app/",
       object_img: {
         img1: shop12,
         img2: shop14,

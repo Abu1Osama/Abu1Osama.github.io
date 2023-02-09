@@ -59,9 +59,7 @@ export default function Navbar() {
           id="resume-link-1"
           className="nav-link resume"
           rel="noreferrer"
-          // href="https://drive.google.com/file/d/1q4__WeM1faZIwzqBAoUrIhp-2akqo78X/view?usp=sharing"
           href="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc"
-          // https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing
           
           >
             {" "}
