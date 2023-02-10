@@ -13,6 +13,10 @@ import shop12 from "./Projects-pic/shop12.jpeg";
 import shop14 from "./Projects-pic/shop14.jpeg";
 import shop15 from "./Projects-pic/shop15.jpeg";
 import shop17 from "./Projects-pic/shop17.jpeg";
+import movie1 from "./Projects-pic/movie1.png";
+import movie2 from "./Projects-pic/movie2.png";
+import movie3 from "./Projects-pic/movie3.png";
+import movie4 from "./Projects-pic/movie4.png";
 
 export default function ProjectComponents() {
   const project1 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js"];
@@ -74,10 +78,10 @@ export default function ProjectComponents() {
       github:"https://github.com/Abu1Osama/Movieapp_info",
       website:"https://movieapp-info.vercel.app/",
       object_img: {
-        img1: shop12,
-        img2: shop14,
-        img3: shop15,
-        img4: shop17,
+        img1: movie1,
+        img2: movie2,
+        img3: movie3,
+        img4: movie4,
       },
     }
   ];
