@@ -1,5 +1,5 @@
 @import "variable";
-#kaamkharaab.projects {
+#kaamkharaab.projects-card {
   /* height: 400px; */
 
   padding: 40px 50px;
@@ -129,7 +129,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  #kaamkharaab.projects {
+  #kaamkharaab.projects-card {
     grid-template-columns: 100%;
     width: 100%;
     padding: 40px 0px;
@@ -144,7 +144,7 @@
   }
 }
 @media only screen and (max-width: 600px) {
-  #kaamkharaab.projects {
+  #kaamkharaab.projects-card {
     grid-template-columns: 100%;
     width: 100%;
     padding: 40px 0px;

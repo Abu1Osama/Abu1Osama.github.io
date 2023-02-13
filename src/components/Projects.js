@@ -22,7 +22,7 @@ export default function Projects(props) {
   };
   
   return (
-    <div id="kaamkharaab" className="projects">
+    <div id="kaamkharaab" className="projects-card">
       <div className="pro-img">
       <Slider {...settings}>
         <img src={props.preview.img1} alt="" />
