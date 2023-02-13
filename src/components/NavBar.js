@@ -30,7 +30,7 @@ export default function Navbar() {
         </li>
         <li onClick={uncheck}>
           {" "}
-          <i className="far fa-address-card"></i> <a className="nav-link about" href="#about"> About Me</a>
+          <i className="far fa-address-card"></i> <a className="nav-link about" href="#about"> About </a>
           <div></div>
         </li>
         <li onClick={uncheck}>
