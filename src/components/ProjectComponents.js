@@ -91,7 +91,7 @@ export default function ProjectComponents() {
   ];
 
   return (
-    <div id="projects" className="all-projects project-card" >
+    <div id="projects" className="all-projects " >
       <p>Recent Work</p>
       {Project_data.map((item, index) => (
         <Projects
@@ -108,22 +108,7 @@ export default function ProjectComponents() {
       ))}
 
      
-      {/* <Projects
-      preview={ZaRa}
-        title="Zara_Clone"
-        description="In this project we have tried to make a look alike clone of Zara.com. some of the functionality we have added are home page, payment page, slider, navbar, pop up, drop down"
-        arr={project2}
-        github="https://github.com/i-m-prince/beneficial-jelly-4258"
-        website="https://tubular-concha-7a9bfb.netlify.app/"
-      />
-       <Projects
-      preview={Shop}
-        title="Shopclues_Clone"
-        description="In this project we have tried to manipulate dom elements, styling using css and tried to make website more dynamic and responsive.some of the functionality we have added are sign-in/sign-up, home page, user authentication, payment page,  developed data using local storage."
-        arr={project3}
-        github="https://github.com/Abu1Osama/close-hand-543"
-        website="https://yousamuniverse-abu1osama.vercel.app/"
-      /> */}
+     
     </div>
   );
 }

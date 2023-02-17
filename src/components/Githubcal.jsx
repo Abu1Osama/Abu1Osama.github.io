@@ -5,6 +5,9 @@ export default function Githubcal() {
       <h1 style={{ fontSize: "30px", marginBottom: "30px",textAlign:"center",fontWeight:"bold" }}>Github</h1>
 
 <Githubcalendar username="abu1osama" color="#16DB94" ></Githubcalendar>
+
+
+
 {/* <p  style={{ width: "120%",textAlign:"center",marginLeft:"25px",marginBottom:"20px" }}></p> */}
       
 
@@ -14,6 +17,8 @@ export default function Githubcal() {
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=abu1osama&theme=default&layout=compact"
         alt="abu1Osama"
       />
+    
+     
 
       <img
         id="github-stats-card"
@@ -21,6 +26,7 @@ export default function Githubcal() {
         src="https://github-readme-stats.vercel.app/api?username=abu1osama&show_icons=true&locale=en&theme=default&layout=compact"
         alt="abu1osama"
       />
+   
 
       <img
         id="github-streak-stats"
@@ -28,6 +34,7 @@ export default function Githubcal() {
         src="https://github-readme-streak-stats.herokuapp.com?user=abu1osama&theme=default&layout=compact"
         alt="abu1osama"
       />
+     
 
     </div>
   );
