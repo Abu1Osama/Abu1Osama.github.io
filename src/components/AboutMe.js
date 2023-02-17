@@ -7,10 +7,11 @@ export default function AboutMe() {
   
  const resumedown2=()=>{
   window.open(" https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing","_blank")
- 
-
-
+              
 }
+// 
+
+
   return (
     <div id="home" className="about">
       <div className="fog">
@@ -36,7 +37,7 @@ export default function AboutMe() {
           </a>{" "}
             </button>
        </div>
-         <a href="#connect"><button> Connect </button></a>
+       <a href="#contact"> <button > Connect </button>  </a>
         {/* <p>Aspiring full stack web developer at Masai school. Self motivated and curious with a keen interest in building user friendly products. Looking forward to applying technical skills like CSS,MERN and JAVASCRIPT to all the organisations that I offer my services to and help the organisation grow and develop alongside me.</p> */}
       </div>
 
