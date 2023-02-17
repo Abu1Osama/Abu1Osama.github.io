@@ -9,7 +9,10 @@ export default function Navbar() {
     }, 1000);
   };
   const resumedown=()=>{
-    window.open(" https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing","_blank")
+    setTimeout(()=>{
+
+      window.open(" https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing","_blank")
+    },5000)
    
 
 

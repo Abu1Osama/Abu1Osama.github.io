@@ -6,7 +6,10 @@ import tree from "./skill-logo/fogtree.jpg";
 export default function AboutMe() {
   
  const resumedown2=()=>{
-  window.open(" https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing","_blank")
+  setTimeout(()=>{
+
+    window.open(" https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing","_blank")
+  },5000)
               
 }
 // 
