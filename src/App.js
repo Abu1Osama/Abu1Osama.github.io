@@ -16,7 +16,7 @@ function App() {
         <AboutMe />
         <MyDetails />
         <Skills />
-        {/* <Githubcal/> */}
+        <Githubcal/>
         <ProjectComponents />
         <Contact />
       </div>
