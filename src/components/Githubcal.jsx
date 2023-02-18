@@ -4,7 +4,7 @@ export default function Githubcal() {
     <div className="gitcont">
       <h1 style={{ fontSize: "30px", marginBottom: "30px",textAlign:"center",fontWeight:"bold" }}>Github</h1>
 
-<Githubcalendar username="" color="#16DB94" ></Githubcalendar>
+<Githubcalendar username="abu1osama" color="#16DB94" ></Githubcalendar>
 
 
 
