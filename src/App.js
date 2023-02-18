@@ -13,9 +13,9 @@ function App() {
       <div className="empty"  ></div>
       <div>
         <Navbar />
+        <ProjectComponents />
         <AboutMe />
         <MyDetails />
-        <ProjectComponents />
         <Skills />
         <Githubcal/>
         <Contact />
