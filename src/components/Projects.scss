@@ -6,7 +6,7 @@
   box-sizing: border-box;
   // display: flex;
   margin: 20px auto;
-  width: 90%;
+  width: 24%;
   background-image: linear-gradient(-45deg, blue, skyblue);
   background-image: linear-gradient(
     to right,
@@ -64,6 +64,7 @@
     background-size: 200%;
     border-radius: 8px;
     background: rgba(0, 0, 0, 0.1);
+    display: none;
   }
 
   .pro-info p {

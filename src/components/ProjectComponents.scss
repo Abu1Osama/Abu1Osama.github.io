@@ -1,5 +1,7 @@
 #projects.all-projects {
   scroll-margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
   > p {
     text-align: center;
     font-size: 30px;
