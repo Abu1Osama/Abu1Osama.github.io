@@ -13,11 +13,11 @@ function App() {
       <div className="empty"  ></div>
       <div>
         <Navbar />
-        <ProjectComponents />
         <AboutMe />
         <MyDetails />
         <Skills />
-        <Githubcal/>
+        {/* <Githubcal/> */}
+        <ProjectComponents />
         <Contact />
       </div>
     </div>
