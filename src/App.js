@@ -15,8 +15,8 @@ function App() {
         <Navbar />
         <AboutMe />
         <MyDetails />
-        <Skills />
         <ProjectComponents />
+        <Skills />
         <Githubcal/>
         <Contact />
       </div>
