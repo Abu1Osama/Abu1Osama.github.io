@@ -26,36 +26,31 @@ export default function Navbar() {
       <ul>
         <li onClick={uncheck}>
           <a className="nav-link home" href="#home">
-            {" "}
-            <i className="far fa-address-card"></i> Home{" "}
-          </a>{" "}
+            <i className="far fa-address-card"></i> Home
+          </a>
           <div></div>
         </li>
         <li onClick={uncheck}>
           <a className="nav-link about" href="#about">
-            {" "}
-            <i className="far fa-address-card"></i> About{" "}
+            <i className="far fa-address-card"></i> About
           </a>
           <div></div>
         </li>
         <li onClick={uncheck}>
           <a className="nav-link skills" href="#skills">
-            {" "}
-            <i className="fas fa-sitemap"></i> Skills{" "}
+            <i className="fas fa-sitemap"></i> Skills
           </a>
           <div></div>
         </li>
         <li onClick={uncheck}>
           <a className="nav-link projects" href="#projects">
-            {" "}
-            <i className="fas fa-laptop"></i> Projects{" "}
+            <i className="fas fa-laptop"></i> Projects
           </a>
           <div></div>
         </li>
         <li onClick={uncheck}>
           <a className="nav-link contact" href="#contact">
-            {" "}
-            <i className="fas fa-laptop"></i> Contact{" "}
+            <i className="fas fa-laptop"></i> Contact
           </a>
           <div></div>
         </li>
@@ -75,7 +70,7 @@ export default function Navbar() {
               rel="noreferrer"
               href="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc"
             >
-              <i className="far fa-file-alt"></i> 
+              <i className="far fa-file-alt"></i>
               Resume
             </a>
           </button>
