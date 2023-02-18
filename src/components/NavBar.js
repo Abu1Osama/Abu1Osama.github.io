@@ -11,10 +11,10 @@ export default function Navbar() {
   const resumedown=()=>{
     setTimeout(()=>{
 
-      window.open(" https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing","_blank")
+      window.open("./Abu-resume.pdf","_blank")
     },5000)
    
-
+    // https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing
 
   }
 
