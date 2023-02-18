@@ -24,12 +24,12 @@ export default function Projects(props) {
   return (
     <div id="kaamkharaab" className="projects-set project-card">
       <div className="pro-img">
-      <Slider {...settings}>
+      {/* <Slider {...settings}> */}
         <img src={props.preview.img1} alt="" />
-        <img src={props.preview.img2} alt="" />
+        {/* <img src={props.preview.img2} alt="" />
         <img src={props.preview.img3} alt="" />
-        <img src={props.preview.img4} alt="" />
-      </Slider>
+        <img src={props.preview.img4} alt="" /> */}
+      {/* </Slider> */}
       </div>
       <div className="pro-info">
         <p className="project-title">{props.title}</p>
