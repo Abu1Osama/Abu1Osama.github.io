@@ -93,8 +93,7 @@ export default function ProjectComponents() {
   return (
     <div id="projects" className="all-projects " >
       <p>Recent Work</p>
-     <div style={{display:"flex",flexWrap:"wrap"}}>
-     {Project_data.map((item, index) => (
+      {Project_data.map((item, index) => (
         <Projects
         key={index}
         preview={item.object_img}
@@ -107,7 +106,6 @@ export default function ProjectComponents() {
 
 
       ))}
-     </div>
 
      
      

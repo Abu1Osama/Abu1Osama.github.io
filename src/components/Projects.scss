@@ -2,11 +2,11 @@
 #kaamkharaab.projects-set {
   /* height: 400px; */
 
-  padding: 10px 20px;
+  padding: 40px 50px;
   box-sizing: border-box;
   // display: flex;
   margin: 20px auto;
-  width: 48%;
+  width: 90%;
   background-image: linear-gradient(-45deg, blue, skyblue);
   background-image: linear-gradient(
     to right,
@@ -15,7 +15,7 @@
     rgba(26, 114, 247, 0.6) 100%
   );
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 64% 34%;
   justify-content: space-between;
   animation-name: example;
   animation-duration: 4s;
@@ -58,7 +58,7 @@
   }
   .pro-info {
     width: 100%;
-    // padding: 30px 50px;
+    padding: 30px 50px;
     box-sizing: border-box;
     // background-image: $BG1;
     background-size: 200%;
@@ -68,7 +68,6 @@
 
   .pro-info p {
     color: white;
-    font-size: 2px;
   }
   .pro-info p:nth-child(1) {
     font-size: 1rem;
