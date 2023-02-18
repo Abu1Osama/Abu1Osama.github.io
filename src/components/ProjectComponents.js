@@ -75,19 +75,19 @@ export default function ProjectComponents() {
         img4: C4,
       },
     },
-    {
-      title:"Movies_info",
-      description:"Website  to search any movies including its trailer and teaser,i have made this project using React.js,Data is Developed using Api.",
-      arr:project4,
-      github:"https://github.com/Abu1Osama/Movieapp_info",
-      website:"https://movieapp-info.vercel.app/",
-      object_img: {
-        img1: movie1,
-        img2: movie2,
-        img3: movie3,
-        img4: movie4,
-      },
-    }
+    // {
+    //   title:"Movies_info",
+    //   description:"Website  to search any movies including its trailer and teaser,i have made this project using React.js,Data is Developed using Api.",
+    //   arr:project4,
+    //   github:"https://github.com/Abu1Osama/Movieapp_info",
+    //   website:"https://movieapp-info.vercel.app/",
+    //   object_img: {
+    //     img1: movie1,
+    //     img2: movie2,
+    //     img3: movie3,
+    //     img4: movie4,
+    //   },
+    // }
   ];
 
   return (
