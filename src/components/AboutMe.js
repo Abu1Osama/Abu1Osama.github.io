@@ -25,22 +25,22 @@ export default function AboutMe() {
        <div className="content">
        <p id="user-detail-name">I am Abu Osama</p>
        <p>I am Abu Osama</p>
-       <button  id="resume-button-2"style={{border: "none",fontWeight: "bold",fontSize:"16px"}} onClick={resumedown2}>
+       <button  id="resume-button-2"style={{border: "none",fontWeight: "bold",fontSize:"20px"}} onClick={resumedown2}>
 
-          <i className="far fa-file-alt"></i>
+        
           <a 
           id="resume-link-2"
           className="nav-link resume"
           rel="noreferrer"
           href="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc"
-          
+        
           >
-            {" "}
-            Resume{" "}
-          </a>{" "}
+         
+            Resume
+          </a>
             </button>
        </div>
-       <a href="#contact"> <button > Connect </button>  </a>
+       <a style={{marginTop:"10px"}} href="#contact"> <button > Connect </button>  </a>
         {/* <p>Aspiring full stack web developer at Masai school. Self motivated and curious with a keen interest in building user friendly products. Looking forward to applying technical skills like CSS,MERN and JAVASCRIPT to all the organisations that I offer my services to and help the organisation grow and develop alongside me.</p> */}
       </div>
 

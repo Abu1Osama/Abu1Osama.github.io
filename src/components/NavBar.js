@@ -10,10 +10,10 @@ export default function Navbar() {
   };
   const resumedown = () => {
     setTimeout(() => {
-      window.open("./Abu-resume.pdf", "_blank");
+      window.open("https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing", "_blank");
     }, 5000);
 
-    // https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing
+ 
   };
 
   return (
@@ -70,7 +70,7 @@ export default function Navbar() {
               rel="noreferrer"
               href="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc"
             >
-              <i className="far fa-file-alt"></i>
+              <i style={{marginRight:"5px"}} className="far fa-file-alt"></i>
               Resume
             </a>
           </button>
