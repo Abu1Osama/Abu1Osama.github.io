@@ -66,14 +66,16 @@ export default function Navbar() {
             }}
             onClick={resumedown}
           >
+             <i style={{marginRight:"5px"}} className="far fa-file-alt"></i> 
+              Resume
             {/* <a
               id=""
               className="nav-link resume"
               rel="noreferrer"
               href=""
             >
-              <i style={{marginRight:"5px"}} className="far fa-file-alt"></i> */}
-              Resume
+             
+
             {/* </a> */}
           </button></Link>
           <div></div>
