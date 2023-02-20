@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.scss";
 import img from "./pic2.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const uncheck = () => {
@@ -11,6 +12,7 @@ export default function Navbar() {
   const resumedown = () => {
     setTimeout(() => {
       window.open("https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing", "_blank");
+      
     }, 5000);
 
  
@@ -55,7 +57,7 @@ export default function Navbar() {
           <div></div>
         </li>
         <li id="resume-button-1" onClick={uncheck}>
-          <button
+          <Link id="resume-link-1" to="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc"><button
             style={{
               background: "none",
               border: "none",
@@ -64,16 +66,16 @@ export default function Navbar() {
             }}
             onClick={resumedown}
           >
-            <a
-              id="resume-link-1"
+            {/* <a
+              id=""
               className="nav-link resume"
               rel="noreferrer"
-              href="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc"
+              href=""
             >
-              <i style={{marginRight:"5px"}} className="far fa-file-alt"></i>
+              <i style={{marginRight:"5px"}} className="far fa-file-alt"></i> */}
               Resume
-            </a>
-          </button>
+            {/* </a> */}
+          </button></Link>
           <div></div>
         </li>
       </ul>
