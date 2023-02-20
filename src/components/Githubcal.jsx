@@ -3,8 +3,11 @@ export default function Githubcal() {
   return (
     <div className="gitcont">
       <h1 style={{ fontSize: "30px", marginBottom: "30px",textAlign:"center",fontWeight:"bold" }}>Github</h1>
+      <div style={{width:"auto%",margin:"auto"}}>
 
-{/* <Githubcalendar username="abu1osama" color="#16DB94" ></Githubcalendar> */}
+<Githubcalendar username="abu1osama" color="#16DB94" ></Githubcalendar>
+      </div>
+
 
 
 
