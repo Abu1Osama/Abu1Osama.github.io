@@ -1,11 +1,11 @@
-import Githubcalendar from "react-github-calendar"
+import GitHubCalendar from "react-github-calendar"
 export default function Githubcal() {
   return (
     <div className="gitcont">
       <h1 style={{ fontSize: "30px", marginBottom: "30px",textAlign:"center",fontWeight:"bold" }}>Github</h1>
-      <div style={{width:"auto%",margin:"auto"}}>
+      <div style={{width:"90%",margin:"auto",marginBottom:"10px"}}>
 
-<Githubcalendar username="abu1osama" color="#16DB94" ></Githubcalendar>
+<GitHubCalendar username="abu1osama"  ></GitHubCalendar>
       </div>
 
 
