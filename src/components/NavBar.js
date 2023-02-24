@@ -10,10 +10,8 @@ export default function Navbar() {
     }, 1000);
   };
   const resumedown = () => {
-    setTimeout(() => {
       window.open("https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing", "_blank");
       
-    }, 5000);
 
  
   };
@@ -56,8 +54,10 @@ export default function Navbar() {
           </a>
           <div></div>
         </li>
-        <li id="resume-button-1" onClick={uncheck}>
-          <Link id="resume-link-1" to="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc"><button
+        <li onClick={uncheck}>
+          <Link className="nav-link resume" to="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc">
+            <button
+          id="resume-button-1" 
             style={{
               background: "none",
               border: "none",
