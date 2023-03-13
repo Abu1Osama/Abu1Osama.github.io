@@ -17,7 +17,7 @@ export default function Githubcal() {
       <img
         id="github-top-langs"
         style={{ width: "100%" }}
-        src="https://github-readme-stats.vercel.app/api/top-langs?username=Abu1Osama&langs_count=8&count_private=true&&theme=default&layout=compact"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abu1Osama&theme=light&hide_border=false&include_all_commits=false&count_private=true&layout=compact"
         alt="Abu1Osama"
       />
     
@@ -26,12 +26,13 @@ export default function Githubcal() {
       <img
         id="github-stats-card"
         style={{ width: "100%" }}
-        src="https://github-readme-stats.vercel.app/api?username=Abu1Osama&show_icons=true&count_private=true&theme=default&layout=compact"
+        src="https://github-readme-stats.vercel.app/api?username=Abu1Osama&theme=light&hide_border=false&include_all_commits=true&count_private=true"
         alt="Abu1Osama"
       />
    
 
       <img
+    
         id="github-streak-stats"
         style={{ width: "100%" }}
         src="https://github-readme-streak-stats.herokuapp.com?user=Abu1Osama"
