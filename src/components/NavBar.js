@@ -10,10 +10,10 @@ export default function Navbar() {
     }, 1000);
   };
   const resumedown = () => {
-      window.open("https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing", "_blank");
-      
-
- 
+    window.open(
+      "https://drive.google.com/file/d/1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc/view?usp=sharing",
+      "_blank"
+    );
   };
 
   return (
@@ -55,20 +55,23 @@ export default function Navbar() {
           <div></div>
         </li>
         <li onClick={uncheck}>
-          <Link className="nav-link resume" to="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc">
-            <button
-          id="resume-button-1" 
-            style={{
-              background: "none",
-              border: "none",
-              fontWeight: "bold",
-              fontSize: "16px",
-            }}
-            onClick={resumedown}
+          <Link
+            className="nav-link resume"
+            to="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc"
           >
-             <i style={{marginRight:"5px"}} className="far fa-file-alt"></i> 
+            <button
+              id="resume-button-1"
+              style={{
+                background: "none",
+                border: "none",
+                fontWeight: "bold",
+                fontSize: "16px",
+              }}
+              onClick={resumedown}
+            >
+              <i style={{ marginRight: "5px" }} className="far fa-file-alt"></i>
               Resume
-            {/* <a
+              {/* <a
               id=""
               className="nav-link resume"
               rel="noreferrer"
@@ -77,7 +80,8 @@ export default function Navbar() {
              
 
             {/* </a> */}
-          </button></Link>
+            </button>
+          </Link>
           <div></div>
         </li>
       </ul>

@@ -16,10 +16,10 @@ import C2 from "./Projects-pic/C2.png"
 import C3 from "./Projects-pic/C3.png"
 import C4 from "./Projects-pic/C4.png"
 
-import movie1 from "./Projects-pic/movie1.png";
-import movie2 from "./Projects-pic/movie2.png";
-import movie3 from "./Projects-pic/movie3.png";
-import movie4 from "./Projects-pic/movie4.png";
+import Mg1 from "./Projects-pic/Mg1.png";
+import Mg2 from "./Projects-pic/Mg2.png";
+import Mg3 from "./Projects-pic/Mg3.png";
+import Mg4 from "./Projects-pic/Mg4.png";
 
 export default function ProjectComponents() {
   const project1 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js"];
@@ -79,13 +79,13 @@ export default function ProjectComponents() {
       title:"Movies_info",
       description:"Website  to search any movies including its trailer and teaser,i have made this project using React.js,Data is Developed using Api.",
       arr:project4,
-      github:"https://github.com/Abu1Osama/Movieapp_info",
-      website:"https://movieapp-info.vercel.app/",
+      github:"https://github.com/sunchushiva/erect-measure-8906",
+      website:"https://5mg-ten.vercel.app/",
       object_img: {
-        img1: movie1,
-        img2: movie2,
-        img3: movie3,
-        img4: movie4,
+        img1: Mg1,
+        img2: Mg2,
+        img3: Mg3,
+        img4: Mg4,
       },
     }
   ];
