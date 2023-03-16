@@ -76,8 +76,8 @@ export default function ProjectComponents() {
       },
     },
     {
-      title:"Movies_info",
-      description:"Website  to search any movies including its trailer and teaser,i have made this project using React.js,Data is Developed using Api.",
+      title:"1Mg_clone",
+      description:"Tata 1mg, previously 1mg, is a healthcare platform based in Gurugram, India. It provides services, including e-pharmacy, diagnostics, e-consultation and health content. .",
       arr:project4,
       github:"https://github.com/sunchushiva/erect-measure-8906",
       website:"https://5mg-ten.vercel.app/",
