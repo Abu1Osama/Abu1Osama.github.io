@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./AboutMe.scss";
 import img from "./pic2.png";
+import av from "./av.png";
 import tree from "./skill-logo/fogtree.jpg";
 
 export default function AboutMe() {
@@ -44,7 +45,7 @@ export default function AboutMe() {
 
       <div className="image">
         <div className="white">
-          <img className="home-img" src={img} alt="Abu Osama" />
+          <img className="home-img" src={av} alt="Abu Osama" />
         </div>
       </div>
     </div>
