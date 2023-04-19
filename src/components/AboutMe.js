@@ -15,7 +15,6 @@ export default function AboutMe() {
     }, 5000);
   };
   //
-
   return (
     <div id="home" className="about">
       <div className="fog">
@@ -26,7 +25,10 @@ export default function AboutMe() {
         <div className="content">
           <p id="user-detail-name">I am Abu Osama</p>
           <p>I am Abu Osama</p>
-          <Link className="nav-link resume" to="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc">
+          <Link
+            className="nav-link resume"
+            to="https://drive.google.com/uc?export=download&id=1yAYMLTd488BqmOcYf3EYalF8DzxpEWfc"
+          >
             <button
               id="resume-button-2"
               style={{ border: "none", fontWeight: "bold", fontSize: "20px" }}

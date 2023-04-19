@@ -15,7 +15,6 @@ export default function Navbar() {
       "_blank"
     );
   };
-
   return (
     <nav id="nav-menu" className="container">
       <div className="logo">Osama</div>

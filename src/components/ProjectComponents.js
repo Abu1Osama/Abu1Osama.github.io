@@ -16,16 +16,22 @@ import C2 from "./Projects-pic/C2.png"
 import C3 from "./Projects-pic/C3.png"
 import C4 from "./Projects-pic/C4.png"
 
-import Mg1 from "./Projects-pic/Mg1.png";
-import Mg2 from "./Projects-pic/Mg2.png";
-import Mg3 from "./Projects-pic/Mg3.png";
-import Mg4 from "./Projects-pic/Mg4.png";
+import Mga from "./Projects-pic/Mga.png";
+import Mgb from "./Projects-pic/Mgb.png";
+import Mge from "./Projects-pic/Mge.png";
+import Mgd from "./Projects-pic/Mgd.png";
+
+import apple1 from "./Projects-pic/apple1.png";
+import apple2 from "./Projects-pic/apple2.png";
+import apple3 from "./Projects-pic/apple3.png";
+import apple4 from "./Projects-pic/apple4.png";
 
 export default function ProjectComponents() {
   const project1 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js"];
   const project2 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js"];
   const project3 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js","fab fa-react"];
   const project4 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js","fab fa-react"];
+  const project5 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js","fab fa-react","fab fa-sass","fab fa-node-js"];
 
   // let object_img = {
   //   img1: Trip,
@@ -51,7 +57,7 @@ export default function ProjectComponents() {
     {
       title: "Zara_Clone",
       description:
-        "In this project we have tried to make a look alike clone of Zara.com. some of the functionality we have added are home page, payment page, slider, navbar, pop up, drop down",
+        "In this project we have tried to make a look alike clone of Zara.com.ZARA is a Spanish multi-national retail clothing chain. It specialises in fast fashion, and sells clothing, accessories, shoes, beauty products and perfumes.",
       arr: project2 ,
       github: "https://github.com/i-m-prince/beneficial-jelly-4258",
       website: "https://tubular-concha-7a9bfb.netlify.app/",
@@ -80,12 +86,26 @@ export default function ProjectComponents() {
       description:"Tata 1mg, previously 1mg, is a healthcare platform based in Gurugram, India. It provides services, including e-pharmacy, diagnostics, e-consultation and health content. .",
       arr:project4,
       github:"https://github.com/sunchushiva/erect-measure-8906",
-      website:"https://5mg-ten.vercel.app/",
+      website:"frontend-abu1osama.vercel.app/",
       object_img: {
-        img1: Mg1,
-        img2: Mg2,
-        img3: Mg3,
-        img4: Mg4,
+        img1: Mga,
+        img2: Mgb,
+        img3: Mge,
+        img4: Mgd,
+      },
+    },
+    {
+      title:"Apple_clone",
+      description:"Apple Inc (Apple) designs, manufactures, and markets smartphones, tablets, personal computers (PCs), portable and wearable devices. The company also offers software related services, accessories, and third-party digital content and applications.",
+
+      arr:project5,
+      github:"https://github.com/harry-io/teal-fuel-7913",
+      website:"https://bolt-beryl.vercel.app/",
+      object_img: {
+        img1: apple1,
+        img2: apple3,
+        img3: apple2,
+        img4: apple4,
       },
     }
   ];
