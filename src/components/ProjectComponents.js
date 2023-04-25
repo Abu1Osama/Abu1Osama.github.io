@@ -86,7 +86,7 @@ export default function ProjectComponents() {
       description:"Tata 1mg, previously 1mg, is a healthcare platform based in Gurugram, India. It provides services, including e-pharmacy, diagnostics, e-consultation and health content. .",
       arr:project4,
       github:"https://github.com/sunchushiva/erect-measure-8906",
-      website:"frontend-abu1osama.vercel.app/",
+      website:"https://frontend-abu1osama.vercel.app/",
       object_img: {
         img1: Mga,
         img2: Mgb,
