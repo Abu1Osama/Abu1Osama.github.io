@@ -30,8 +30,8 @@ export default function ProjectComponents() {
   const project1 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js"];
   const project2 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js"];
   const project3 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js","fab fa-react"];
-  const project4 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js","fab fa-react"];
-  const project5 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js","fab fa-react","fab fa-sass","fab fa-node-js"];
+  const project4 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js","fab fa-react","fab fa-sass","fab fa-node-js"];
+  const project5 = ["fab fa-html5", "fab fa-css3-alt", "fab fa-js","fab fa-react","fab fa-sass","fab fa-node-js",];
 
   // let object_img = {
   //   img1: Trip,

@@ -1,22 +1,22 @@
-import React from 'react'
+import React from "react";
 
-import"./Skills.scss"
-import SkillComponents from './SkillComponents'
+import "./Skills.scss";
+import SkillComponents from "./SkillComponents";
 
 export default function Skills() {
-    return (
-        <div  id="skills"  className='skills' >
-            <p>Skills and Tools</p>
-            <div className="tools">
+  return (
+    <div id="skills" className="skills">
+      <p>Skills and Tools</p>
+      <div className="tools">
+        <SkillComponents name="HTML" icon="fab fa-html5" />
+        <SkillComponents name="CSS" icon="fab fa-css3-alt" />
+        <SkillComponents name="JS" icon="fab fa-js" />
+        <SkillComponents name="BOOTSTRAP" icon="fab fa-bootstrap" />
 
-           <SkillComponents name ="HTML" icon="fab fa-html5"/>
-           <SkillComponents name ="CSS" icon="fab fa-css3-alt"/>
-           <SkillComponents name ="js" icon="fab fa-js"/>
-           <SkillComponents name ="BOOTSTRAP" icon="fab fa-bootstrap"/>
-         
-           <SkillComponents  name ="REACT" icon="fab fa-react"/>
-           <SkillComponents name ="NODE js" icon="fab fa-node-js"/>
-            </div>
-        </div>
-    )
+        <SkillComponents name="REACT" icon="fab fa-react" />
+        <SkillComponents name="NODE js" icon="fab fa-node-js" />
+        <SkillComponents name="SASS" icon="fab fa-sass" />
+      </div>
+    </div>
+  );
 }
