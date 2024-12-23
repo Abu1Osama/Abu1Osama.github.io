@@ -4,9 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@coreui/icons": "^3.0.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
     "font-awesome": "^4.7.0",
     "github-calendar": "^2.3.2",
     "react": "^17.0.2",

@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar.js";
+import Navbar from "./components/NavBar.js";
 import "./App.scss";
 import AboutMe from "./components/AboutMe.js";
 import MyDetails from "./components/MyDetails.js";
@@ -6,17 +6,22 @@ import Skills from "./components/Skills.js";
 import ProjectComponents from "./components/ProjectComponents.js";
 import Contact from "./components/Contact.js";
 import Githubcal from "./components/Githubcal.jsx";
+import { useEffect } from "react";
+import Aos from "aos";
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 500, easing: "ease-out-back" });
+  }, []);
   return (
     <div id="HOME">
-      <div className="empty"  ></div>
+      <div className="empty"></div>
       <div>
         <Navbar />
         <AboutMe />
         <MyDetails />
         <Skills />
-        <Githubcal/>
+        <Githubcal />
         <ProjectComponents />
         <Contact />
       </div>

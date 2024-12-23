@@ -1,32 +1,28 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  list-style-type: none
+  list-style-type: none;
 }
 
-.gitcont{
+.gitcont {
   width: 60%;
   margin: auto;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway&display=swap");
 
-
-.empty{
+.empty {
   height: 60px;
   width: 100%;
-  background-color: violet;
+  // background-color: violet;
 }
 
-
-
-button{
+button {
   cursor: pointer;
 }
