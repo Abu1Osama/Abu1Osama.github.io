@@ -1,9 +1,13 @@
 // $BG1: linear-gradient(-45deg, black, rgb(211, 215, 217));
 $BG1: linear-gradient(-45deg, blue, skyblue);
 
-@mixin flex-box($align-item:flex-start,$flex-direction:row,$justify-content: center){
-display: flex;
-align-items: $align-item;
-flex-direction: $flex-direction;
-justify-content: $justify-content;
+@mixin flex-box(
+  $align-item: flex-start,
+  $flex-direction: row,
+  $justify-content: center
+) {
+  display: flex;
+  align-items: $align-item;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
 }
